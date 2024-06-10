@@ -1,0 +1,43 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a.active {
+    color: violet;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    background-color: lightgray;
+    width: fit-content;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.nav-link {
+    padding-right: 5px;
+    height: 100%;
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: gray;
+}
+
+.nav-btn {
+    color: white;
+    background-color: black;
+    border-radius: 1px;
+}
+
+.nav-btn:hover {
+    background-color: gray;
+    cursor: pointer;
+}
